@@ -7,8 +7,12 @@
 
 ![Google CodeJam](https://img.shields.io/static/v1?label=Google&message=CodeJam&color=blue) ![mIRC Bots](https://img.shields.io/static/v1?label=Mirc&message=Bots&color=red) ![Web FrontPage](https://img.shields.io/static/v1?label=Web&message=FrontPage&color=lightgrey)
 
-#### Writings
 
-## Medium 
+## 📝 Medium 
 
 <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/0" alt="Recent article #1"></a>
+
+### 📮 Get In Touch!
+- Twitter: https://twitter.com/creasta29
+- Medium: https://medium.com/@danneciu
+- LinkedIn: https://www.linkedin.com/in/dan-neciu-38810964/
