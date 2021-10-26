@@ -7,10 +7,8 @@
 
 ![Google CodeJam](https://img.shields.io/static/v1?label=Google&message=CodeJam&color=blue) ![mIRC Bots](https://img.shields.io/static/v1?label=Mirc&message=Bots&color=red) ![Web FrontPage](https://img.shields.io/static/v1?label=Web&message=FrontPage&color=lightgrey)
 
-#### Experience
+#### Writings
 
-## Pixio
+## Medium 
 
-###### April 2013 - February 2015
-
-WIP
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/0" alt="Recent article #1"></a>
