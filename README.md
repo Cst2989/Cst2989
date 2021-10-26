@@ -12,7 +12,7 @@
 
 <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/0" alt="Recent article #1"></a>
 
-### 📮 Get In Touch!
+## 📮 Get In Touch!
 - Twitter: https://twitter.com/creasta29
 - Medium: https://medium.com/@danneciu
 - LinkedIn: https://www.linkedin.com/in/dan-neciu-38810964/
