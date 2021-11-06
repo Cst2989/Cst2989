@@ -1,8 +1,10 @@
 # Neciu Dan
 
-#### First Steps
+## 👨‍💻 About me
 
-> My passion for programming started very young, in the old days of mIRC when I was creating bots and bouncers at the young age of 12. From here I started learning everything about UNIX and even created a couple of website using FrontPage from Microsoft. I kept this hobby all throughout college but it wasn't untill I met my second passion of solving algorithms and programming challanges that I knew this is what I wanted to do for the rest of my life. I started with Google Code Jam - staying up at night to compete with the best and the brightest of Silicon Valey for a change to win a T-Shirt - fun times, and from there it escaleted in finding out how the WEB works and learning anything I could find to build my own websites.
+> I am a software engineer, focusing mostly on front-end, in a love-love relashionship with Javascript. I worked professionally on all Big Three Frameworks (But secretly I love React the most). 
+> I consider myself a senior frontend engineer, a medium backend developer and a junior when it comes to infrastructure and devops, but i am continously learning and trying to reach a full-stack mastery in all the above areas + a little UX and Mobile apps in between. 
+> I am forever trying to strike a balance with my desire of shipping incredible UI and bring fast and great value from a Product prespective but also try to ship the cleanest, best written code I can manage. 
 > <br/>
 
 ![Google CodeJam](https://img.shields.io/static/v1?label=Google&message=CodeJam&color=blue) ![mIRC Bots](https://img.shields.io/static/v1?label=Mirc&message=Bots&color=red) ![Web FrontPage](https://img.shields.io/static/v1?label=Web&message=FrontPage&color=lightgrey)
