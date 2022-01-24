@@ -13,6 +13,9 @@
 
 <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/1"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/1" alt="Recent article #2"></a>
 
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/2"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/2" alt="Recent article #1"></a>
+
+
 ## 📮 Get In Touch!
 - Twitter: https://twitter.com/creasta29
 - Medium: https://medium.com/@danneciu
