@@ -9,11 +9,9 @@
 
 
 ## 📝 Medium 
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/0" alt="Recent article #1"></a>
 
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/1"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/1" alt="Recent article #2"></a>
-
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/2"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@danneciu/2" alt="Recent article #1"></a>
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 
 ## 📮 Get In Touch!
