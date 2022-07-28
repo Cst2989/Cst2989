@@ -11,10 +11,11 @@
 ## 📝 Medium 
 
 <!-- BLOG-POST-LIST:START -->
-- [How to Become a Gmail Power User](https://medium.com/@danneciu/how-to-become-a-gmail-power-user-9a2686e343e5?source=rss-f60e2d2c3efb------2)
+- [CSS: The !important parts](https://medium.com/@neciudan/css-the-important-parts-75132f78116?source=rss-f60e2d2c3efb------2)
+- [How to Become a Gmail Power User](https://medium.com/@neciudan/how-to-become-a-gmail-power-user-9a2686e343e5?source=rss-f60e2d2c3efb------2)
 - [5 Tips to Solve Common Pitfalls With React Native](https://betterprogramming.pub/5-tips-to-solve-common-pitfalls-with-react-native-fcf66772b4b7?source=rss-f60e2d2c3efb------2)
 - [5 Developer Oriented Startups at Web Summit 2021](https://medium.com/geekculture/5-developer-oriented-startups-at-web-summit-2021-2782ac4c281e?source=rss-f60e2d2c3efb------2)
-- [The Bowling Kata](https://medium.com/@danneciu/the-bowling-kata-aea967152e91?source=rss-f60e2d2c3efb------2)
+- [The Bowling Kata](https://medium.com/@neciudan/the-bowling-kata-aea967152e91?source=rss-f60e2d2c3efb------2)
 <!-- BLOG-POST-LIST:END -->
 
 
