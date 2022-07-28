@@ -19,6 +19,6 @@
 
 
 ## 📮 Get In Touch!
-- Twitter: https://twitter.com/creasta29
-- Medium: https://medium.com/@danneciu
+- Twitter: https://twitter.com/neciudan
+- Medium: https://medium.com/@neciudan
 - LinkedIn: https://www.linkedin.com/in/dan-neciu-38810964/
