@@ -14,4 +14,4 @@ jobs:
       - name: Updated posts
         uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: https://medium.com/feed/@danneciu
+          feed_list: https://medium.com/feed/@neciudan
