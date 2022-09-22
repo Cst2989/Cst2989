@@ -11,7 +11,7 @@
 ## 📝 Medium 
 
 <!-- BLOG-POST-LIST:START -->
-- [Javascript Component Patterns to Scale up your Web Application](https://medium.com/@neciudan/javascript-component-patterns-to-scale-up-your-web-application-4903a2d9c735?source=rss-f60e2d2c3efb------2)
+- [Javascript Component Patterns to Scale up your Web Application](https://betterprogramming.pub/javascript-component-patterns-to-scale-up-your-web-application-4903a2d9c735?source=rss-f60e2d2c3efb------2)
 - [CSS: The !Important Parts](https://betterprogramming.pub/css-the-important-parts-75132f78116?source=rss-f60e2d2c3efb------2)
 - [How to Become a Gmail Power User](https://medium.com/@neciudan/how-to-become-a-gmail-power-user-9a2686e343e5?source=rss-f60e2d2c3efb------2)
 - [5 Tips to Solve Common Pitfalls With React Native](https://betterprogramming.pub/5-tips-to-solve-common-pitfalls-with-react-native-fcf66772b4b7?source=rss-f60e2d2c3efb------2)
