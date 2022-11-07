@@ -11,11 +11,11 @@
 ## 📝 Medium 
 
 <!-- BLOG-POST-LIST:START -->
+- [I paid 200$ for Twitter followers with surprising results!](https://medium.com/@neciudan/i-paid-200-for-twitter-followers-with-surprising-results-69beddefb16e?source=rss-f60e2d2c3efb------2)
 - [Tech Books you have to read, to be a better Software Engineer](https://medium.com/@neciudan/tech-books-you-have-to-read-to-be-a-better-software-engineer-bc719127c218?source=rss-f60e2d2c3efb------2)
 - [5 Testing Practices you should have in your CI / CD Pipeline](https://medium.com/@neciudan/5-testing-practices-you-should-have-in-your-ci-cd-pipeline-399dcbdfed6a?source=rss-f60e2d2c3efb------2)
 - [Javascript Component Patterns to Scale up your Web Application](https://betterprogramming.pub/javascript-component-patterns-to-scale-up-your-web-application-4903a2d9c735?source=rss-f60e2d2c3efb------2)
 - [CSS: The !Important Parts](https://betterprogramming.pub/css-the-important-parts-75132f78116?source=rss-f60e2d2c3efb------2)
-- [How to Become a Gmail Power User](https://medium.com/@neciudan/how-to-become-a-gmail-power-user-9a2686e343e5?source=rss-f60e2d2c3efb------2)
 <!-- BLOG-POST-LIST:END -->
 
 
