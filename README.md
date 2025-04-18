@@ -11,11 +11,7 @@
 ## 📝 Medium 
 
 <!-- BLOG-POST-LIST:START -->
-- [Fortifying Vue.js Applications: Common Security Risks and Solutions](https://medium.com/@neciudan/fortifying-vue-js-applications-common-security-risks-and-solutions-2496321acf82?source=rss-f60e2d2c3efb------2)
-- [Crack the Tech Interview: The Ultimate Tech Learning Resource List](https://medium.com/@neciudan/crack-the-tech-interview-the-ultimate-tech-learning-resource-list-c550d0b882b3?source=rss-f60e2d2c3efb------2)
-- [Writing The Perfect Tests for your Application](https://medium.com/@neciudan/writing-the-perfect-tests-for-your-application-ac6f49a8321e?source=rss-f60e2d2c3efb------2)
-- [10 Software concepts I learned in 2022](https://medium.com/@neciudan/10-software-concepts-i-learned-in-2022-19843b330014?source=rss-f60e2d2c3efb------2)
-- [5 Amazing Software Testing Books You have to Read](https://medium.com/@neciudan/5-amazing-software-testing-books-you-have-to-read-6f12ab3cb2d2?source=rss-f60e2d2c3efb------2)
+- [5 Developer Oriented Startups at Web Summit 2021](https://medium.com/geekculture/5-developer-oriented-startups-at-web-summit-2021-2782ac4c281e?source=rss-f60e2d2c3efb------2)
 <!-- BLOG-POST-LIST:END -->
 
 
