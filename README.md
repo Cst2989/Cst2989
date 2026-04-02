@@ -1,21 +1,49 @@
 # Neciu Dan
 
+Tech Co-Founder @ [CareerOS](https://careeros.com), ReactJS Barcelona Organizer, Speaker · [neciudan.dev](https://neciudan.dev)
+
 ## 👨‍💻 About me
 
-> I am a software engineer, focusing mostly on front-end, in a love-love relationship with Javascript. I worked professionally on all Big Three Frameworks (But secretly I love React the most). 
-> <br/> <br/> I consider myself a senior Frontend Engineer, a middle Backend Developer and a junior when it comes to Infrastructure and Devops, but I am continuously learning and trying to reach a full-stack mastery in all the above areas + a little UX and Mobile apps in between. 
-> <br/> <br/> I am forever trying to strike a balance with my desire of shipping incredible UI and bring fast and great value from a Product perspective but also try to merge the cleanest, easily maintainable code I can possible write. 
-> <br/><br/>
+> I'm a tech lead and software engineer with 12+ years of experience, focused on front-end and scaling products. I've worked at Glovo, AdoreMe, and now build [CareerOS](https://careeros.com). I speak at conferences (React Alicante, React Summit, React Rally, Techorama, Frontmania) and host the **Señors @ Scale** podcast.
 
+---
 
-## 📝 Medium 
+## 🎙️ Señors @ Scale — Top episodes
+
+<!-- PODCAST-LIST:START -->
+- **Technical Leadership at Scale with Anemari Fiser** (Ep. 24) · 51m  
+  [Spotify](https://podcasters.spotify.com/pod/show/dan-neciu/episodes/Technical-Leadership-at-Scale-with-Anemari-Fiser-OReilly-Author-and-Engineering-Coach-e3eok0h) · [YouTube](https://www.youtube.com/playlist?list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr)
+<!-- PODCAST-LIST:END -->
+
+*[All episodes & takeaways](https://neciudan.dev/senors-at-scale)*
+
+---
+
+## 📝 Latest articles
 
 <!-- BLOG-POST-LIST:START -->
-- [5 Developer Oriented Startups at Web Summit 2021](https://medium.com/geekculture/5-developer-oriented-startups-at-web-summit-2021-2782ac4c281e?source=rss-f60e2d2c3efb------2)
+- [The Future of Coding in the Age of AI is Git](https://neciudan.dev/blog)
+- [2025 in Review](https://neciudan.dev/blog)
 <!-- BLOG-POST-LIST:END -->
 
+*[View all posts](https://neciudan.dev/blog)*
 
-## 📮 Get In Touch!
-- Twitter: https://twitter.com/neciudan
-- Medium: https://medium.com/@neciudan
-- LinkedIn: https://www.linkedin.com/in/dan-neciu-38810964/
+---
+
+## 📺 Latest videos
+
+<!-- YOUTUBE-LIST:START -->
+- [Whats new in React 19.2: Activity Component](https://youtu.be/loAuSFtNuc4) · Dec 18, 2025
+- [URL Pattern API in 100 seconds](https://youtu.be/UYBb72lwyGA) · Nov 19, 2025
+<!-- YOUTUBE-LIST:END -->
+
+*[All videos](https://www.youtube.com/@NeciuDan/videos)*
+
+---
+
+## 📮 Get in touch
+
+- **Site:** [neciudan.dev](https://neciudan.dev)
+- **Twitter/X:** [@neciudan](https://twitter.com/neciudan)
+- **LinkedIn:** [neciudan](https://www.linkedin.com/in/neciudan)
+- **Newsletter:** [Subscribe](https://neciudan.dev/subscribe)

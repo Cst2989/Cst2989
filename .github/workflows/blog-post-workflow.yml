@@ -1,17 +1,32 @@
-name: Latest blog post workflow
+name: Update profile README from neciudan.dev
+
 on:
   schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch: 
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+  update-readme:
+    name: Fetch data and update README
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-      - name: Updated posts
-        uses: gautamkrishnar/blog-post-workflow@master
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          feed_list: https://medium.com/feed/@neciudan
+          node-version: '20'
+
+      - name: Update README from API
+        run: node scripts/update-readme-from-api.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (git add README.md && git commit -m "chore: update README from neciudan.dev API" && git push)
