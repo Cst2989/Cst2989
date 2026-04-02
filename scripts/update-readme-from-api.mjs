@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 /**
- * Fetches profile readme data from neciudan.dev API and updates README.md.
- * Used by GitHub Actions to keep the profile readme in sync daily.
+ * Fetches profile data from neciudan.dev/api/profile-readme.json
+ * and updates README.md sections between marker comments.
  *
- * Expected API: GET https://neciudan.dev/api/profile-readme.json
- * Response shape: { episodes: [...], articles: [...], videos: [...] }
+ * Run by GitHub Actions daily (see .github/workflows/blog-post-workflow.yml).
  */
 
 import { readFileSync, writeFileSync } from 'fs';
@@ -13,58 +12,67 @@ import { get } from 'https';
 
 const API_URL = 'https://neciudan.dev/api/profile-readme.json';
 const README_PATH = join(process.cwd(), 'README.md');
+const LIMIT = 4;
 
-function fetchJson(url) {
+// ── Fetch ────────────────────────────────────────────────────────────
+
+function fetchJson(url, maxRedirects = 3) {
   return new Promise((resolve, reject) => {
     get(url, (res) => {
+      if ([301, 302, 307, 308].includes(res.statusCode) && res.headers.location) {
+        if (maxRedirects <= 0) return reject(new Error('Too many redirects'));
+        const target = new URL(res.headers.location, url).href;
+        return fetchJson(target, maxRedirects - 1).then(resolve, reject);
+      }
       if (res.statusCode !== 200) {
-        reject(new Error(`HTTP ${res.statusCode}`));
-        return;
+        return reject(new Error(`HTTP ${res.statusCode} from ${url}`));
       }
       let data = '';
       res.on('data', (chunk) => (data += chunk));
       res.on('end', () => {
-        try {
-          resolve(JSON.parse(data));
-        } catch (e) {
-          reject(e);
-        }
+        try { resolve(JSON.parse(data)); }
+        catch (e) { reject(e); }
       });
     }).on('error', reject);
   });
 }
 
-function escapeMarkdown(title) {
-  return title.replace(/\[/g, '\\[');
+// ── Markdown builders ────────────────────────────────────────────────
+
+function esc(str) {
+  return str.replace(/\[/g, '\\[').replace(/\]/g, '\\]');
 }
 
-function buildEpisodesMarkdown(episodes) {
-  if (!Array.isArray(episodes) || episodes.length === 0) return '';
-  return episodes
-    .slice(0, 5)
-    .map(
-      (e) =>
-        `- **${escapeMarkdown(e.title)}** (Ep. ${e.episodeNumber || ''}) ${e.duration ? `· ${e.duration}` : ''}  
-  [Spotify](${e.spotifyUrl}) · [YouTube](${e.youtubeUrl})`
-    )
-    .join('\n');
+function buildEpisodes(episodes) {
+  return episodes.slice(0, LIMIT).map((e) => {
+    const num = e.episodeNumber ? ` (Ep. ${e.episodeNumber})` : '';
+    const dur = e.duration ? ` · ${e.duration}` : '';
+    const desc = e.description ? `\n  ${e.description}` : '';
+    const links = [
+      e.spotifyUrl && `[Spotify](${e.spotifyUrl})`,
+      e.youtubeUrl && `[YouTube](${e.youtubeUrl})`,
+    ].filter(Boolean).join(' · ');
+    const linksLine = links ? `\n  ${links}` : '';
+    return `- **${esc(e.title)}**${num}${dur}  ${desc}${linksLine}`;
+  }).join('\n');
 }
 
-function buildArticlesMarkdown(articles) {
-  if (!Array.isArray(articles) || articles.length === 0) return '';
-  return articles
-    .slice(0, 5)
-    .map((a) => `- [${escapeMarkdown(a.title)}](${a.url})`)
-    .join('\n');
+function buildArticles(articles) {
+  return articles.slice(0, LIMIT).map((a) => {
+    const desc = a.description ? `\n  ${a.description}` : '';
+    return `- [${esc(a.title)}](${a.url})${desc}`;
+  }).join('\n');
 }
 
-function buildVideosMarkdown(videos) {
-  if (!Array.isArray(videos) || videos.length === 0) return '';
-  return videos
-    .slice(0, 5)
-    .map((v) => `- [${escapeMarkdown(v.title)}](${v.url})${v.date ? ` · ${v.date}` : ''}`)
-    .join('\n');
+function buildSpeaking(speaking) {
+  return speaking.slice(0, LIMIT).map((s) => {
+    const loc = s.location ? ` — ${s.location}` : '';
+    const talk = s.talk ? `: *${s.talk}*` : '';
+    return `- **${esc(s.event)}** · ${s.date}${loc}${talk}`;
+  }).join('\n');
 }
+
+// ── Replace between markers ──────────────────────────────────────────
 
 function replaceBetween(content, startMarker, endMarker, newContent) {
   const start = content.indexOf(startMarker);
@@ -72,52 +80,42 @@ function replaceBetween(content, startMarker, endMarker, newContent) {
   if (start === -1 || end === -1 || end <= start) return content;
   return (
     content.slice(0, start + startMarker.length) +
-    '\n' +
-    newContent +
-    '\n' +
+    '\n' + newContent + '\n' +
     content.slice(end)
   );
 }
+
+// ── Main ─────────────────────────────────────────────────────────────
 
 async function main() {
   let data;
   try {
     data = await fetchJson(API_URL);
   } catch (err) {
-    console.warn('Profile-readme API not available yet:', err.message);
-    console.warn('Add https://neciudan.dev/api/profile-readme.json (see docs/profile-readme-api.md)');
-    process.exit(0);
+    console.error(`Failed to fetch ${API_URL}:`, err.message);
+    console.error('Deploy the API endpoint on neciudan.dev first (src/pages/api/profile-readme.json.ts).');
+    process.exit(1);
   }
 
   let readme = readFileSync(README_PATH, 'utf8');
 
-  if (data.episodes) {
-    readme = replaceBetween(
-      readme,
-      '<!-- PODCAST-LIST:START -->',
-      '<!-- PODCAST-LIST:END -->',
-      buildEpisodesMarkdown(data.episodes)
-    );
+  if (data.episodes?.length) {
+    readme = replaceBetween(readme, '<!-- PODCAST-LIST:START -->', '<!-- PODCAST-LIST:END -->', buildEpisodes(data.episodes));
+    console.log(`  ✓ Podcast: ${Math.min(data.episodes.length, LIMIT)} episodes`);
   }
-  if (data.articles) {
-    readme = replaceBetween(
-      readme,
-      '<!-- BLOG-POST-LIST:START -->',
-      '<!-- BLOG-POST-LIST:END -->',
-      buildArticlesMarkdown(data.articles)
-    );
+
+  if (data.articles?.length) {
+    readme = replaceBetween(readme, '<!-- BLOG-POST-LIST:START -->', '<!-- BLOG-POST-LIST:END -->', buildArticles(data.articles));
+    console.log(`  ✓ Articles: ${Math.min(data.articles.length, LIMIT)} posts`);
   }
-  if (data.videos) {
-    readme = replaceBetween(
-      readme,
-      '<!-- YOUTUBE-LIST:START -->',
-      '<!-- YOUTUBE-LIST:END -->',
-      buildVideosMarkdown(data.videos)
-    );
+
+  if (data.speaking?.length) {
+    readme = replaceBetween(readme, '<!-- SPEAKING-LIST:START -->', '<!-- SPEAKING-LIST:END -->', buildSpeaking(data.speaking));
+    console.log(`  ✓ Speaking: ${Math.min(data.speaking.length, LIMIT)} engagements`);
   }
 
   writeFileSync(README_PATH, readme);
-  console.log('README.md updated from profile-readme API.');
+  console.log('README.md updated.');
 }
 
 main();

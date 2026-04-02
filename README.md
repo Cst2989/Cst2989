@@ -2,46 +2,62 @@
 
 Tech Co-Founder @ [CareerOS](https://careeros.com), ReactJS Barcelona Organizer, Speaker · [neciudan.dev](https://neciudan.dev)
 
-## 👨‍💻 About me
+## About me
 
 > I'm a tech lead and software engineer with 12+ years of experience, focused on front-end and scaling products. I've worked at Glovo, AdoreMe, and now build [CareerOS](https://careeros.com). I speak at conferences (React Alicante, React Summit, React Rally, Techorama, Frontmania) and host the **Señors @ Scale** podcast.
 
 ---
 
-## 🎙️ Señors @ Scale — Top episodes
+## Señors @ Scale — Latest episodes
 
 <!-- PODCAST-LIST:START -->
-- **Technical Leadership at Scale with Anemari Fiser** (Ep. 24) · 51m  
-  [Spotify](https://podcasters.spotify.com/pod/show/dan-neciu/episodes/Technical-Leadership-at-Scale-with-Anemari-Fiser-OReilly-Author-and-Engineering-Coach-e3eok0h) · [YouTube](https://www.youtube.com/playlist?list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr)
+- **Database Performance at Scale with Tyler Benfield** (Ep. 30) · 58 minutes  
+  🎙️ Tyler traces his path from NASCAR pit stop software at Penske Racing to building Prisma Postgres, covering the ORM anti-patterns that silently kill performance, how connection pooling breaks in serverless, and why SQL is a fundamentally broken language for nested data.
+  [Spotify](https://open.spotify.com/episode/5Rqm0R1l9ADKzkn2YqovqG) · [YouTube](https://www.youtube.com/watch?v=Q3-91HMNsqM)
+- **Open Source at Scale with Corbin Crutchley** (Ep. 29) · 52 minutes  
+  🎙️ Corbin shares how a 30-minute conversation with Tanner Lindsley turned into leading TanStack Form, why versioning is a social contract not a technical one, and the near-quit moment that changed how he thinks about maintainer wellbeing.
+  [Spotify](https://open.spotify.com/episode/5sRp8vtYlz8w0Mb5JwAoET) · [YouTube](https://www.youtube.com/watch?v=y4sMQeqmdVM)
+- **PostCSS, AutoPrefixer & Open Source at Scale with Andrey Sitnik** (Ep. 28) · 58 minutes  
+  🎙️ The creator of PostCSS shares how browser discrimination in Russia drove AutoPrefixer, the pledge that forced PostCSS 8 to ship, and why adding 10x more AI agents gives you 10x more coordination problems.
+- **React Server Components at Scale with Aurora Scharff** (Ep. 27) · 52 minutes  
+  🎙️ Aurora shares how she learned Angular before JavaScript, built a Boston Dynamics robot controller in React, and why the biggest RSC mistake is not understanding how async/await actually blocks on the server.
 <!-- PODCAST-LIST:END -->
 
 *[All episodes & takeaways](https://neciudan.dev/senors-at-scale)*
 
 ---
 
-## 📝 Latest articles
+## Latest articles
 
 <!-- BLOG-POST-LIST:START -->
-- [The Future of Coding in the Age of AI is Git](https://neciudan.dev/blog)
-- [2025 in Review](https://neciudan.dev/blog)
+- [You really, really, really don't need an effect! I swear!](https://neciudan.dev/you-really-really-dont-need-an-effect)
+  Before you write another useEffect, ask one question: is this syncing with an external system? If not, there's a better way.
+- [10 React tips I wish someone had told me before I mass-produced bugs](https://neciudan.dev/10-react-tips-that-actually-matter)
+  After running a 30-day React deep-dive, these are the 10 patterns that changed how I write components, manage state, and think about performance.
+- [Build your own shimmer skeleton that never goes out of sync](https://neciudan.dev/lets-build-dynamic-shimmer-skeletons)
+  Skeleton screens break every time you touch the UI. Here's how to build one that reads the DOM and keeps itself in sync automatically.
+- [Start naming your useEffect functions, you will thank me later](https://neciudan.dev/name-your-effects)
+  I started naming my useEffect functions about a year ago. It changed how I read components, how I debug them, and eventually how I structure them.
 <!-- BLOG-POST-LIST:END -->
 
 *[View all posts](https://neciudan.dev/blog)*
 
 ---
 
-## 📺 Latest videos
+## Recent speaking engagements
 
-<!-- YOUTUBE-LIST:START -->
-- [Whats new in React 19.2: Activity Component](https://youtu.be/loAuSFtNuc4) · Dec 18, 2025
-- [URL Pattern API in 100 seconds](https://youtu.be/UYBb72lwyGA) · Nov 19, 2025
-<!-- YOUTUBE-LIST:END -->
+<!-- SPEAKING-LIST:START -->
+- **JNation** · May 26, 2026 — Coimbra, Portugal: *To Be Announced*
+- **CityJS London** · Apr 16, 2026 — London, UK: *Pixels, Promises & Panic: Production Nightmares*
+- **React Paris** · Mar 26, 2026 — Paris, France: *Scaling a JavaScript App from 0 to a Billion Users*
+- **Voxxed Days Zurich** · Mar 24, 2026 — Zurich, Switzerland: *Security in Frontend Applications*
+<!-- SPEAKING-LIST:END -->
 
-*[All videos](https://www.youtube.com/@NeciuDan/videos)*
+*[All talks](https://neciudan.dev/about)*
 
 ---
 
-## 📮 Get in touch
+## Get in touch
 
 - **Site:** [neciudan.dev](https://neciudan.dev)
 - **Twitter/X:** [@neciudan](https://twitter.com/neciudan)
