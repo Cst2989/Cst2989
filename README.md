@@ -1,10 +1,10 @@
 # Neciu Dan
 
-Tech Co-Founder @ [CareerOS](https://careeros.com), ReactJS Barcelona Organizer, Speaker · [neciudan.dev](https://neciudan.dev)
+Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Speaker · [neciudan.dev](https://neciudan.dev)
 
 ## About me
 
-> I'm a tech lead and software engineer with 12+ years of experience, focused on front-end and scaling products. I've worked at Glovo, AdoreMe, and now build [CareerOS](https://careeros.com). I speak at conferences (React Alicante, React Summit, React Rally, Techorama, Frontmania) and host the **Señors @ Scale** podcast.
+> I'm a tech lead and staff software engineer with 14+ years of experience, focused on front-end and scaling products. I've worked at Glovo, AdoreMe, and CareerOS. I speak at conferences (React Alicante, React Summit, React Rally, Techorama, Frontmania) and host the **Señors @ Scale** podcast.
 
 ---
 
