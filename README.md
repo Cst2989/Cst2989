@@ -19,8 +19,10 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
   [Spotify](https://open.spotify.com/episode/5sRp8vtYlz8w0Mb5JwAoET) · [YouTube](https://www.youtube.com/watch?v=y4sMQeqmdVM)
 - **PostCSS, AutoPrefixer & Open Source at Scale with Andrey Sitnik** (Ep. 28) · 58 minutes  
   🎙️ The creator of PostCSS shares how browser discrimination in Russia drove AutoPrefixer, the pledge that forced PostCSS 8 to ship, and why adding 10x more AI agents gives you 10x more coordination problems.
+  [Spotify](https://open.spotify.com/episode/0E9gLPWqaxgHI1Yg1WHFI7) · [YouTube](https://www.youtube.com/watch?v=5cIWDIJdJnI)
 - **React Server Components at Scale with Aurora Scharff** (Ep. 27) · 52 minutes  
   🎙️ Aurora shares how she learned Angular before JavaScript, built a Boston Dynamics robot controller in React, and why the biggest RSC mistake is not understanding how async/await actually blocks on the server.
+  [Spotify](https://open.spotify.com/episode/6UW8rszpV4eOAYwxK4trH4) · [YouTube](https://www.youtube.com/watch?v=4Llhem0M1Og)
 <!-- PODCAST-LIST:END -->
 
 *[All episodes & takeaways](https://neciudan.dev/senors-at-scale)*
@@ -47,10 +49,10 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
 ## Recent speaking engagements
 
 <!-- SPEAKING-LIST:START -->
-- **JNation** · May 26, 2026 — Coimbra, Portugal: *To Be Announced*
-- **CityJS London** · Apr 16, 2026 — London, UK: *Pixels, Promises & Panic: Production Nightmares*
-- **React Paris** · Mar 26, 2026 — Paris, France: *Scaling a JavaScript App from 0 to a Billion Users*
-- **Voxxed Days Zurich** · Mar 24, 2026 — Zurich, Switzerland: *Security in Frontend Applications*
+- **JNation** · May 26, 2026 — Coimbra, Portugal: *Micro Frontends & Me, a Love Story*
+- **CityJS London** · Apr 16, 2026 — London, UK: *Lizard to Wizard*
+- **React Paris** · Mar 26, 2026 — Paris, France: *How Not to Use TanStack Query*
+- **Voxxed Days Zurich** · Mar 24, 2026 — Zurich, Switzerland: *Micro Frontends & Me, a Love Story*
 <!-- SPEAKING-LIST:END -->
 
 *[All talks](https://neciudan.dev/about)*
