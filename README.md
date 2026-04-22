@@ -32,14 +32,14 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
 ## Latest articles
 
 <!-- BLOG-POST-LIST:START -->
+- [What's actually new in JavaScript (and what's coming next)](https://neciudan.dev/whats-new-in-javascript)
+  ES2025 is out, ES2026 is close. Here is the new feature of Javascript we can use today, what is coming next and how we can get our AI friends to use these new features
 - [My blog got popular, and my bandwidth exploded to ~300GB in just 10 days](https://neciudan.dev/how-i-cut-250gb-of-bandwidth-from-my-website)
   This made me take a good, hard look at my Astro blog and start optimizing: assets, headers, caching, CDN. Here is exactly what I did to fix it.
 - [Now more then ever, you need to master custom ESLint rules](https://neciudan.dev/master-eslint-rules)
   I spent three days building a custom ESLint rule and accidentally learned how JavaScript actually works. ESLint is just walking your code's syntax tree and running functions against each node. Once you see it, you can enforce any coding standard automatically instead of arguing about it in PR reviews.
 - [You really, really, really don't need an effect! I swear!](https://neciudan.dev/you-really-really-dont-need-an-effect)
   Before you write another useEffect, ask one question: is this syncing with an external system? If not, there's a better way.
-- [10 React tips I wish someone had told me before I mass-produced bugs](https://neciudan.dev/10-react-tips-that-actually-matter)
-  After running a 30-day React deep-dive, these are the 10 patterns that changed how I write components, manage state, and think about performance.
 <!-- BLOG-POST-LIST:END -->
 
 *[View all posts](https://neciudan.dev/blog)*
