@@ -32,14 +32,14 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
 ## Latest articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Seven cool JavaScript libraries You should know about](https://neciudan.dev/7-cool-javascript-libraries-you-might-want-to-use)
+  Small, focused libraries I found useful. Each has a clear job and a payoff you'll feel in the first use.
 - [Server-Driven UI in 22 lines of TypeScript](https://neciudan.dev/implementing-server-driven-ui)
   Move the layout decision out of the clients and into the API. One JSON contract; every client renders it in its own programming language or framework.
 - [Astro SEO Checklist 2026: 20 tactics ranked by impact](https://neciudan.dev/astro-seo-checklist-2026)
   Astro SEO checklist for 2026: 20 tactics ranked from biggest to smallest impact, including canonical URLs, title tag rules, JSON-LD structured data, Person and BreadcrumbList schema, llms.txt, Pagefind search, and a Zod schema that caught 10 bugs in my podcast frontmatter.
 - [How to make your app agent-ready](https://neciudan.dev/make-your-app-agent-ready)
   MCP, OAuth, discovery metadata, robots.txt, Content Signals, Web Bot Auth, x402, UCP, ACP. A walk through what each one is, why it exists, and how to implement the ones your app actually needs.
-- [What's actually new in JavaScript (and what's coming next)](https://neciudan.dev/whats-new-in-javascript)
-  ES2025 is out, ES2026 is close. Here is the new feature of Javascript we can use today, what is coming next and how we can get our AI friends to use these new features
 <!-- BLOG-POST-LIST:END -->
 
 *[View all posts](https://neciudan.dev/blog)*
