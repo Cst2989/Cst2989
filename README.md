@@ -11,18 +11,18 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
 ## Señors @ Scale — Latest episodes
 
 <!-- PODCAST-LIST:START -->
-- **Database Performance at Scale with Tyler Benfield** (Ep. 30) · 58 minutes  
-  🎙️ Tyler traces his path from NASCAR pit stop software at Penske Racing to building Prisma Postgres, covering the ORM anti-patterns that silently kill performance, how connection pooling breaks in serverless, and why SQL is a fundamentally broken language for nested data.
-  [Spotify](https://open.spotify.com/episode/5Rqm0R1l9ADKzkn2YqovqG) · [YouTube](https://www.youtube.com/watch?v=Q3-91HMNsqM)
-- **Open Source at Scale with Corbin Crutchley** (Ep. 29) · 52 minutes  
-  🎙️ Corbin shares how a 30-minute conversation with Tanner Lindsley turned into leading TanStack Form, why versioning is a social contract not a technical one, and the near-quit moment that changed how he thinks about maintainer wellbeing.
-  [Spotify](https://open.spotify.com/episode/5sRp8vtYlz8w0Mb5JwAoET) · [YouTube](https://www.youtube.com/watch?v=y4sMQeqmdVM)
-- **PostCSS, AutoPrefixer & Open Source at Scale with Andrey Sitnik** (Ep. 28) · 58 minutes  
-  🎙️ The creator of PostCSS shares how browser discrimination in Russia drove AutoPrefixer, the pledge that forced PostCSS 8 to ship, and why adding 10x more AI agents gives you 10x more coordination problems.
-  [Spotify](https://open.spotify.com/episode/0E9gLPWqaxgHI1Yg1WHFI7) · [YouTube](https://www.youtube.com/watch?v=5cIWDIJdJnI)
-- **React Server Components at Scale with Aurora Scharff** (Ep. 27) · 52 minutes  
-  🎙️ Aurora shares how she learned Angular before JavaScript, built a Boston Dynamics robot controller in React, and why the biggest RSC mistake is not understanding how async/await actually blocks on the server.
-  [Spotify](https://open.spotify.com/episode/6UW8rszpV4eOAYwxK4trH4) · [YouTube](https://www.youtube.com/watch?v=4Llhem0M1Og)
+- **React Native at Scale with Kadi Kraman** (Ep. 35) · 60 minutes  
+  🎙️ Kadi traces her path from a C++ maths degree to building React Native tooling at Expo, covering the limitations that no longer exist, why Expo Go is now just for prototyping, and the gray area of OTA updates.
+  [Spotify](https://open.spotify.com/episode/2PbfoiU3whAs5XBFtuRIek) · [YouTube](https://www.youtube.com/watch?v=77XmpG83h-c&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=2)
+- **Browser ML at Scale with Nico Martin** (Ep. 34) · 66 minutes  
+  🎙️ Nico traces his path from ski instructor to Hugging Face, breaks down how LLMs actually generate the next token, and explains why running ML in the browser changes the privacy and hardware story for AI.
+  [Spotify](https://open.spotify.com/episode/7eRupCV9WE87FvxXo6pAci) · [YouTube](https://www.youtube.com/watch?v=SilGBAV4Lbw&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=3)
+- **Frontend Foundations at Scale with Giorgio Polvara** (Ep. 33) · 55 minutes  
+  🎙️ Giorgio walks through joining TravelPerk at 15 people, going from full-stack developer to engineering manager and back, leading the multi-year micro-frontend migration that unblocked every team, and the rebrand that shipped without leaks.
+  [Spotify](https://open.spotify.com/episode/45YNARPe8OCsfQIoYowDgQ) · [YouTube](https://www.youtube.com/watch?v=QlXOeuLL1-0&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=4)
+- **Module Federation at Scale with Zack Chapple & Nestor** (Ep. 32) · 57 minutes  
+  🎙️ Zack and Nestor unpack why module federation is Docker for the frontend, why Zephyr is the Kubernetes-plus on top, and how composition (not deployment) is the real unlock for teams shipping at scale.
+  [Spotify](https://open.spotify.com/episode/3ZQj9cp9liHs7fnkwfoYe2) · [YouTube](https://www.youtube.com/watch?v=TCPSZ0ADhz0&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=5)
 <!-- PODCAST-LIST:END -->
 
 *[All episodes & takeaways](https://neciudan.dev/senors-at-scale)*
@@ -49,10 +49,10 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
 ## Recent speaking engagements
 
 <!-- SPEAKING-LIST:START -->
+- **Convex Summit** · Jun 17, 2026 — Madrid, Spain: *Micro Frontends & Me, a Love Story*
 - **JNation** · May 26, 2026 — Coimbra, Portugal: *Micro Frontends & Me, a Love Story*
+- **JSHeroes** · May 14, 2026 — Cluj-Napoca, Romania: *How Not to Use TanStack Query*
 - **CityJS London** · Apr 16, 2026 — London, UK: *Lizard to Wizard*
-- **React Paris** · Mar 26, 2026 — Paris, France: *How Not to Use TanStack Query*
-- **Voxxed Days Zurich** · Mar 24, 2026 — Zurich, Switzerland: *Micro Frontends & Me, a Love Story*
 <!-- SPEAKING-LIST:END -->
 
 *[All talks](https://neciudan.dev/about)*
