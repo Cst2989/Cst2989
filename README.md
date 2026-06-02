@@ -32,14 +32,14 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
 ## Latest articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Everything you need to know about Sourcemaps](https://neciudan.dev/everything-you-need-to-know-about-sourcemaps)
+  Sourcemaps unlock some observability benefits but might expose your codebase. Check out how they work, and how to protect yourself.
 - [A gentle introduction to TanStack Query](https://neciudan.dev/a-gentle-introduction-to-tanstack-query)
   One room of React developers had all used TanStack Query. The next room had barely heard of it. This is the version of the talk that assumes nothing.
 - [GitHub Actions Cache Poisoning is eating open source](https://neciudan.dev/github-actions-poisoning)
   Angular. tj-actions. Cline. TanStack. The same class of attack has been quietly hijacking publish pipelines for two years. Here's what it is, how it works, and what you need to do today.
 - [Seven cool JavaScript libraries You should know about](https://neciudan.dev/7-cool-javascript-libraries-you-might-want-to-use)
   Small, focused libraries I found useful. Each has a clear job and a payoff you'll feel in the first use.
-- [Server-Driven UI in 22 lines of TypeScript](https://neciudan.dev/implementing-server-driven-ui)
-  Move the layout decision out of the clients and into the API. One JSON contract; every client renders it in its own programming language or framework.
 <!-- BLOG-POST-LIST:END -->
 
 *[View all posts](https://neciudan.dev/blog)*
