@@ -11,18 +11,18 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
 ## Señors @ Scale — Latest episodes
 
 <!-- PODCAST-LIST:START -->
-- **React Native at Scale with Kadi Kraman** (Ep. 35) · 60 minutes  
-  🎙️ Kadi traces her path from a C++ maths degree to building React Native tooling at Expo, covering the limitations that no longer exist, why Expo Go is now just for prototyping, and the gray area of OTA updates.
-  [Spotify](https://open.spotify.com/episode/2PbfoiU3whAs5XBFtuRIek) · [YouTube](https://www.youtube.com/watch?v=77XmpG83h-c&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=2)
-- **Browser ML at Scale with Nico Martin** (Ep. 34) · 66 minutes  
-  🎙️ Nico traces his path from ski instructor to Hugging Face, breaks down how LLMs actually generate the next token, and explains why running ML in the browser changes the privacy and hardware story for AI.
-  [Spotify](https://open.spotify.com/episode/7eRupCV9WE87FvxXo6pAci) · [YouTube](https://www.youtube.com/watch?v=SilGBAV4Lbw&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=3)
-- **Frontend Foundations at Scale with Giorgio Polvara** (Ep. 33) · 55 minutes  
-  🎙️ Giorgio walks through joining TravelPerk at 15 people, going from full-stack developer to engineering manager and back, leading the multi-year micro-frontend migration that unblocked every team, and the rebrand that shipped without leaks.
-  [Spotify](https://open.spotify.com/episode/45YNARPe8OCsfQIoYowDgQ) · [YouTube](https://www.youtube.com/watch?v=QlXOeuLL1-0&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=4)
-- **Module Federation at Scale with Zack Chapple & Nestor** (Ep. 32) · 57 minutes  
-  🎙️ Zack and Nestor unpack why module federation is Docker for the frontend, why Zephyr is the Kubernetes-plus on top, and how composition (not deployment) is the real unlock for teams shipping at scale.
-  [Spotify](https://open.spotify.com/episode/3ZQj9cp9liHs7fnkwfoYe2) · [YouTube](https://www.youtube.com/watch?v=TCPSZ0ADhz0&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=5)
+- **Monorepos at Scale with Santosh Yadav** (Ep. 40) · 58 minutes  
+  🎙️ Santosh traces his path from hating C in 2004 to becoming a GitHub Star, Angular GDE, and Nx champion, covering the year-long migration of a single deployable product to an Nx monorepo, why polyrepos starve AI tools of context, and how CodeRabbit reviews code for free for open source.
+  [Spotify](https://open.spotify.com/episode/39dTmXnsuhB9G97RL55a0O) · [YouTube](https://www.youtube.com/watch?v=6HSlLnlApG8&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=1)
+- **Routing at Scale with Nicolas Beaussart-Hatchuel** (Ep. 39) · 54 minutes  
+  🎙️ Nicolas traces his path from writing C macros and phishing pages to maintaining TanStack Router, covering iframe micro frontends, how Payfit untangled 40 subrouters and 25 polyrepos into one modular monolith, and what separates senior from staff.
+  [Spotify](https://open.spotify.com/episode/21w5emB0t9CAgdx3gu3lGy) · [YouTube](https://www.youtube.com/watch?v=3jAApeeDvNU&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=2)
+- **Redux at Scale with Mark Erikson** (Ep. 38) · 57 minutes  
+  🎙️ Mark traces his path from a 286 and four years teaching English in China to maintaining Redux for millions of developers, covering the @deprecated backlash, why the Redux core hasn't meaningfully changed since 2016, and building source maps into React's pipeline.
+  [Spotify](https://open.spotify.com/episode/5x7EIslnwkfVfN0fBvgj5Z) · [YouTube](https://www.youtube.com/watch?v=dbe0wC9Y8bo&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=3)
+- **TanStack Query at Scale with Dominik Dorfmeister** (Ep. 37) · 53 minutes  
+  🎙️ Dominik traces his path from JVM backend developer to TanStack Query maintainer and Sentry design engineer, covering how answering Discord questions led to open source, why version-five was a major-version disaster, and how Knip removed 3% of the Sentry codebase.
+  [Spotify](https://open.spotify.com/episode/7zc9S5pmSfGk1ti7KT9gKT) · [YouTube](https://www.youtube.com/watch?v=anz2xw4FY9c&list=PLeeGnEj5psFIwWJfpCwnedMsFApK6CvRr&index=4)
 <!-- PODCAST-LIST:END -->
 
 *[All episodes & takeaways](https://neciudan.dev/senors-at-scale)*
