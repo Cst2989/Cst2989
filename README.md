@@ -32,14 +32,14 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
 ## Latest articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Component Communication Patterns in React Applications](https://neciudan.dev/component-communication-patterns-in-react)
+  React gives you a lot of ways to make two components share data but it gets more and more complicated based on the data and how far apart the components are. Lets see the different ways components can communicate with each other.
 - [Upgrading from Astro 3 to Astro 6, with Claude doing most of the work](https://neciudan.dev/astro-upgrade-from-3-to-6)
   My site ran Astro 3 for three years. When Anthropic released the new Fable model, I tested it on the scariest item on my backlog: a three-major-version upgrade. This is how it went, numbers included.
 - [Why are we not using Service Workers?](https://neciudan.dev/why-are-we-not-using-service-workers)
   I feel like Service Workers are a underused technology with a lot of benefits, but very complex to set up and often misunderstood and what they do. Here are some case studies from Slack, Mux and me on where and how to use Service Workers
 - [Everything you need to know about Sourcemaps](https://neciudan.dev/everything-you-need-to-know-about-sourcemaps)
   Sourcemaps unlock some observability benefits but might expose your codebase. Check out how they work, and how to protect yourself.
-- [A gentle introduction to TanStack Query](https://neciudan.dev/a-gentle-introduction-to-tanstack-query)
-  One room of React developers had all used TanStack Query. The next room had barely heard of it. This is the version of the talk that assumes nothing.
 <!-- BLOG-POST-LIST:END -->
 
 *[View all posts](https://neciudan.dev/blog)*
