@@ -32,14 +32,14 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
 ## Latest articles
 
 <!-- BLOG-POST-LIST:START -->
+- [The React Compiler](https://neciudan.dev/react-compiler-explained)
+  The React Compiler memoizes your components at build time, and it does the job better than you can by hand. What it is, how the compiled output works, how to turn it on, and what to do with the useMemo calls already in your codebase.
 - [What's the best way to do authentication in modern applications](https://neciudan.dev/most-secure-way-to-store-auth-token)
   Where should your auth token live so an XSS bug can't steal it? Here's how to build auth that survives the crazy non-secure world we live in.
 - [Different hydration and rendering strategies](https://neciudan.dev/hydration-and-rendering-strategies)
   Over the years, in our goal to achieve faster and faster web applications, we created different hydration and rendering strategies. Each with benefits and drawbacks that we explore in this article.
 - [Component Communication Patterns in React Applications](https://neciudan.dev/component-communication-patterns-in-react)
   React gives you a lot of ways to make two components share data but it gets more and more complicated based on the data and how far apart the components are. Lets see the different ways components can communicate with each other.
-- [Upgrading from Astro 3 to Astro 6, with Claude doing most of the work](https://neciudan.dev/astro-upgrade-from-3-to-6)
-  My site ran Astro 3 for three years. When Anthropic released the new Fable model, I tested it on the scariest item on my backlog: a three-major-version upgrade. This is how it went, numbers included.
 <!-- BLOG-POST-LIST:END -->
 
 *[View all posts](https://neciudan.dev/blog)*
