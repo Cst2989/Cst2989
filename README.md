@@ -32,14 +32,14 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
 ## Latest articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Frontend CI/CD in the age of AI -- Part 1](https://neciudan.dev/ci-cd-in-the-age-of-ai-part-1)
+  Code is written faster than ever with AI loving to write tests for everything it does. This makes our CI pipeline slower and slower. Here is how to build a fast CI/CD pipeline - Part 1 with focus on CI
 - [Do we need state management libraries anymore?](https://neciudan.dev/do-we-need-state-management-libraries)
   Let's find out by exploring how the most popular libraries are doing it under the hood and then build our own.
 - [The React Compiler](https://neciudan.dev/react-compiler-explained)
   The React Compiler memoizes your components at build time, and it does the job better than you can by hand. What it is, how the compiled output works, how to turn it on, and what to do with the useMemo calls already in your codebase.
 - [What's the best way to do authentication in modern applications](https://neciudan.dev/most-secure-way-to-store-auth-token)
   Where should your auth token live so an XSS bug can't steal it? Here's how to build auth that survives the crazy non-secure world we live in.
-- [Different hydration and rendering strategies](https://neciudan.dev/hydration-and-rendering-strategies)
-  Over the years, in our goal to achieve faster and faster web applications, we created different hydration and rendering strategies. Each with benefits and drawbacks that we explore in this article.
 <!-- BLOG-POST-LIST:END -->
 
 *[View all posts](https://neciudan.dev/blog)*
