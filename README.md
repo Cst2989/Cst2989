@@ -32,14 +32,14 @@ Lead Engineer @ [Rover.com](https://rover.com), ReactJS Barcelona Organizer, Spe
 ## Latest articles
 
 <!-- BLOG-POST-LIST:START -->
-- [AI Agents: Architecture](https://neciudan.dev/ai-agents-architecture)
-  This series focuses on building AI agents in production. In the first part we're discussing different types of architecture and how to connect multiple agents working together with all the pros and cons.
 - [Frontend CI/CD in the age of AI - Part 2: Deployments](https://neciudan.dev/ci-cd-in-the-age-of-ai-part-2-deployments)
   Agents write code that passes every test and still breaks in production. Here is how to ship it to a slice of your users first, and how to take it back in seconds when it goes wrong.
 - [Frontend CI/CD in the age of AI -- Part 1](https://neciudan.dev/ci-cd-in-the-age-of-ai-part-1)
   Code is written faster than ever with AI loving to write tests for everything it does. This makes our CI pipeline slower and slower. Here is how to build a fast CI/CD pipeline - Part 1 with focus on CI
 - [Do we need state management libraries anymore?](https://neciudan.dev/do-we-need-state-management-libraries)
   Let's find out by exploring how the most popular libraries are doing it under the hood and then build our own.
+- [The React Compiler](https://neciudan.dev/react-compiler-explained)
+  The React Compiler memoizes your components at build time, and it does the job better than you can by hand. What it is, how the compiled output works, how to turn it on, and what to do with the useMemo calls already in your codebase.
 <!-- BLOG-POST-LIST:END -->
 
 *[View all posts](https://neciudan.dev/blog)*
